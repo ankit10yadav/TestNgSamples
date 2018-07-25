@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="528" started-at="2018-07-25T07:40:51Z" finished-at="2018-07-25T07:40:51Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="528" started-at="2018-07-25T07:40:51Z" finished-at="2018-07-25T07:40:51Z">
+      <class name="TestNg.TestNgSample.App">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNg.TestNgSample.App@59fa1d9b]" name="test1" is-config="true" duration-ms="9" started-at="2018-07-25T07:40:51Z" finished-at="2018-07-25T07:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNg.TestNgSample.App@59fa1d9b]" name="test2" is-config="true" duration-ms="0" started-at="2018-07-25T07:40:51Z" finished-at="2018-07-25T07:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:TestNg.TestNgSample.App@59fa1d9b]" name="test4" is-config="true" duration-ms="1" started-at="2018-07-25T07:40:51Z" finished-at="2018-07-25T07:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:TestNg.TestNgSample.App@59fa1d9b]" name="test5" duration-ms="4" started-at="2018-07-25T07:40:51Z" finished-at="2018-07-25T07:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test6(java.lang.String)[pri:0, instance:TestNg.TestNgSample.App@59fa1d9b]" name="test6" duration-ms="3" started-at="2018-07-25T07:40:51Z" description="Test6Description" finished-at="2018-07-25T07:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180.179.157.56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method status="PASS" signature="test7(java.lang.String, java.lang.String)[pri:0, instance:TestNg.TestNgSample.App@59fa1d9b]" name="test7" duration-ms="2" started-at="2018-07-25T07:40:51Z" data-provider="GetUserData" finished-at="2018-07-25T07:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method status="PASS" signature="test7(java.lang.String, java.lang.String)[pri:0, instance:TestNg.TestNgSample.App@59fa1d9b]" name="test7" duration-ms="1" started-at="2018-07-25T07:40:51Z" data-provider="GetUserData" finished-at="2018-07-25T07:40:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Julie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+      </class> <!-- TestNg.TestNgSample.App -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

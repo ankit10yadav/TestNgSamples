@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="QA" value="180.179.157.56"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestNg.TestNgSample.App">
+        <methods>
+          <include name="test1"/>
+          <include name="test4"/>
+          <include name="test5"/>
+          <include name="test7"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TestNg.TestNgSample.App -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
